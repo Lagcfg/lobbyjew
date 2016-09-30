@@ -13,16 +13,6 @@ p{
   width: 100em;
   animation: type 0s steps(100, end); 
 }
-p2{
-  color: red; 
-  font-family: "Lucida Console";
-  font-size: 10px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100em;
-  animation: type 0s steps(100, end); 
-}
 p:nth-child(2){
   animation: type 1s steps(100, end);
 }
@@ -38,10 +28,6 @@ p:nth-child(5){
 
 p {
   color: lime;
-  text-decoration: none;
-}
-p2 {
-  color: red;
   text-decoration: none;
 }
 span{
